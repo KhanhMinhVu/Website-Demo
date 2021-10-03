@@ -1,0 +1,173 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    overflow:auto;
+}
+
+.clr {
+    clear:both;
+}
+
+.lead {
+    font-size: 20px;
+    /* line-height: 1.7em;
+    margin-bottom: 50px; */
+}
+
+.text-primary {
+    color: rgb(247, 168, 139);
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #ddd;
+    background: rgb(247, 168, 139);
+}
+
+.bg-dark {
+    background:#333;
+    color:#fff;
+}
+
+.btn-light {
+    background: #f4f4f4;
+    color:#333;
+}
+
+.bg-primary {
+    background: rgb(247, 168, 139);
+    color: #333;
+
+}
+
+html,body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em ;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1, h2, h3 {
+    padding-bottom:20px;
+}
+
+p {
+    margin:10px 0;
+}
+
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    color: rgb(247, 168, 139);
+    background: #444;
+}
+
+#showcase {
+    background: url(../img/showcase.jpg) center center/cover;
+    height: 600px;
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 30px;
+    line-height: 1.7em;
+}
+
+#home-info {
+    height: 500px;
+}
+
+#home-info .info-img {
+    background: url('../img/photo.jpg') center center/cover;
+    width: 45%;
+    float: left;
+    height: 100%;
+  }
+
+#home-info .info-content {
+    float:right;
+    max-width: 55%;
+    height: 100%;
+    text-align: center;
+    padding: 120px 30px;
+    overflow:hidden;
+}
+
+#home-info .info-content p {
+    margin-bottom: 30px;
+}
+
+.box {
+    float:left;
+    width: 33.3%;
+    padding:70px;
+    text-align: center;
+}
+
+#main-footer {
+    background: #444;
+    text-align: center;
+    color :#fff;
+    padding: 20px;
+}
+
+
+
